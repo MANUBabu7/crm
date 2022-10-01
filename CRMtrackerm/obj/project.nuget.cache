@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nKyuvbk+dNEi0KR5Yp28LnB7xLEU6GpC5HVAq5QyJPguE9JCqtZqjRj3nbaKUBjMNTnFlm2KbS+fgGplDJXLVg==",
+  "dgSpecHash": "K4MQFfMnaxuwyqkfdXZsRSYp4Onu5jA03rB/rHs2acWuZ4JYb/2BP2/Bm6OvD55f5Mi7FXyfN6Cmkq+STZ3a6w==",
   "success": true,
-  "projectFilePath": "D:\\1\\CRMtrackerm\\CrmTracker.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\github\\crm\\CRMtrackerm\\CrmTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

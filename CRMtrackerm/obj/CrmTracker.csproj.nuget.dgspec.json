@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1\\CRMtrackerm\\CrmTracker.csproj": {}
+    "C:\\Users\\hp\\Desktop\\github\\crm\\CRMtrackerm\\CrmTracker.csproj": {}
   },
   "projects": {
-    "D:\\1\\CRMtrackerm\\CrmTracker.csproj": {
+    "C:\\Users\\hp\\Desktop\\github\\crm\\CRMtrackerm\\CrmTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1\\CRMtrackerm\\CrmTracker.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\github\\crm\\CRMtrackerm\\CrmTracker.csproj",
         "projectName": "CrmTracker",
-        "projectPath": "D:\\1\\CRMtrackerm\\CrmTracker.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\github\\crm\\CRMtrackerm\\CrmTracker.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\1\\CRMtrackerm\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\github\\crm\\CRMtrackerm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

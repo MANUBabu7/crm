@@ -11,7 +11,7 @@ using NLog.Web;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//git hub
 // Add services to the container.
 builder.Services.AddAutoMapper(typeof(Program));
 
