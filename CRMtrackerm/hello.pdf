@@ -1,0 +1,169 @@
+Auto Mapper
+	-21Mar2022
+
+=> What is Auto Mapper
+
+AutoMapper is an object-object mapper. Object-object mapping works by transforming an input object of one type into an output object of a different type. 
+
+AutoMapper provides some interesting conventions to take the dirty work out of figuring out how to map type X to type Y. As long as type Y follows AutoMapper’s established convention, almost zero configuration is needed to map two types.
+
+AutoMapper is a simple library that helps us to transform one object type to another. It is a convention-based object-to-object mapper that requires very little configuration.
+
+=> Why Auto Mapper
+
+Many times we need to use different entity models, resource models and need to use DTOs intermediatlely. We need to write dirty code of mapping between them.
+
+For example, we have to two classes User and UserDTO as below
+
+public class User
+{
+    public int Id { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
+    public string Address { get; set; }
+}
+
+
+public class UserDTO
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
+}
+
+=> How AutoMapper works?
+ 
+AutoMapper internally uses the Reflection concept to make the mapping automated. 
+
+
+========================= Setup & Running===========
+
+Step 1: Install the package
+
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection  
+
+Step 2:  Configure AutoMapper
+ 
+Startup.cs -add the below code into ConfigureServices method.
+
+public void ConfigureServices(IServiceCollection services)  
+{  
+    services.AddControllers();  
+    services.AddAutoMapper(typeof(Startup)); 
+}  
+
+=> Creating Profiles for linking source and destination objects
+
+Create AutoMapperProfile class by inheriting from Profile. 
+
+using AutoMapper;  
+  
+public class AutoMapperProfile : Profile  
+ {  
+        public AutoMapperProfile()  
+        {  
+            CreateMap<UserDTO, User>();  
+        }  
+ }  
+
+Note : Use CreateMap<source, destination>() to create a mapping between classes.
+ 
+Note : As soon as our application starts and initializes AutoMapper, AutoMapper will scan our application and look for classes that inherit from the Profile class and load their mapping configurations.
+
+=> Using IMapper to actually map whereever required
+ 
+We shall use IMapper interface to map two objects whereever required. 
+ 
+using AutoMapper;  
+....  
+
+    [Route("api/[controller]")]  
+    public class UserController : Controller  
+    {  
+        private readonly IMapper _mapper;  
+  
+        public UserController(IMapper mapper)  
+        {  
+            _mapper = mapper;  
+        }  
+  
+        // GET: api/<controller>  
+        [HttpGet]  
+        public User Get()  
+        {  
+            UserDTO userDTO = new UserDTO()  
+            {  
+                Name = "User 1",  
+                Age = 25,  
+                City = "New York"  
+            };  
+  
+            return _mapper.Map<User>(userDTO);  
+        }  
+    }  
+}  
+
+Note : Impl of IMapper gets  injected automatically by AddAutoMapper().
+
+We have created a new object of UserDTO class and assign values to it. So now we have to map it with User class, we used _mapper.Map() method. 
+
+=> Concepts of AutoMapper
+ 
+:: Projection -used when when source class has a different property name than the destination class. Here we use explicit property mapping.
+ 
+public class User
+{
+    public int Id { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string OfficeEmail { get; set; }
+    public string Address { get; set; }
+}
+
+
+public class UserDTO
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
+}
+
+public class AutoMapperProfile : Profile  
+    {  
+        public AutoMapperProfile()  
+        {  
+            CreateMap<UserDTO, User>()  
+                .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.OfficeEmail));  
+        }  
+    }  
+
+:: Nested Mapping  -Used with nested/ Inner class with it. 
+
+public class AddressDTO  
+    {  
+        public string State { get; set; }  
+        public string Country { get; set; }  
+    }  
+
+public class UserDTO
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
+    public AddressDTO Address { get; set; }  
+}
+
+ public AutoMapperProfile()  
+        {  
+            CreateMap<UserDTO, User>()  
+                .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.OfficeEmail));  
+            CreateMap<AddressDTO, Address>();  
+        }  
+
+
+:: Conditional Mappings
+ 
+Most of the times we have to map property on the basis of some conditions. And to do this AutoMapper has a concept called Conditional Mappings. While writing mappings we can specify conditions for the specific properties.
+
+

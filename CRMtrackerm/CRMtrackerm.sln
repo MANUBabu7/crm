@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmTracker", "CrmTracker.csproj", "{BAB5B3B8-099A-4F48-9D36-A9136E204055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAB5B3B8-099A-4F48-9D36-A9136E204055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB5B3B8-099A-4F48-9D36-A9136E204055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB5B3B8-099A-4F48-9D36-A9136E204055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB5B3B8-099A-4F48-9D36-A9136E204055}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A05A7B5A-E22B-402C-B7C5-5AE60FEFD997}
+	EndGlobalSection
+EndGlobal
