@@ -1,0 +1,357 @@
+2022-09-28 11:27:49.0457 DEBUG init main
+2022-09-28 13:49:53.6408 DEBUG init main
+2022-09-28 13:55:10.1811 DEBUG init main
+2022-09-28 14:02:48.9399 DEBUG init main
+2022-09-28 14:10:30.0585 DEBUG init main
+2022-09-28 14:21:49.1363 DEBUG init main
+2022-09-28 14:22:03.2950 INFO ADDING NEW Enquiry 
+2022-09-28 14:22:04.7666 INFO creating enquireis in data base
+2022-09-28 14:22:06.4120 INFO sending mail to customer
+2022-09-28 14:23:00.4110 INFO ADDING NEW Enquiry 
+2022-09-28 14:23:00.4110 INFO creating enquireis in data base
+2022-09-28 14:23:00.4241 INFO sending mail to customer
+2022-09-28 14:23:17.4780 INFO ADDING NEW Enquiry 
+2022-09-28 14:23:17.4780 INFO creating enquireis in data base
+2022-09-28 14:23:17.4944 INFO sending mail to customer
+2022-09-28 14:24:34.8102 INFO ADDING NEW Enquiry 
+2022-09-28 14:24:34.8102 INFO creating enquireis in data base
+2022-09-28 14:24:34.8243 INFO sending mail to customer
+2022-09-28 16:22:28.5892 DEBUG init main
+2022-09-28 17:02:59.8116 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:02:59.9053 INFO select *from enquiries where status='pending'
+2022-09-28 17:02:59.9053 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:03:49.4712 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:03:49.4712 INFO select *from enquiries where status='pending'
+2022-09-28 17:03:49.4712 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:03:49.4712 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:03:49.4712 INFO select *from enquiries where status='pending'
+2022-09-28 17:03:49.4712 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:06:16.4776 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:06:16.4776 INFO select *from enquiries where status='pending'
+2022-09-28 17:06:16.4776 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:06:16.4916 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:06:16.4916 INFO select *from enquiries where status='pending'
+2022-09-28 17:06:16.4916 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:09:04.5080 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:09:04.5080 INFO select *from enquiries where status='pending'
+2022-09-28 17:09:04.5080 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:09:04.5909 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:09:04.5909 INFO select *from enquiries where status='pending'
+2022-09-28 17:09:04.5909 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:10:27.0121 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:10:27.0121 INFO select *from enquiries where status='pending'
+2022-09-28 17:10:27.0121 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:10:27.0479 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:10:27.0479 INFO select *from enquiries where status='pending'
+2022-09-28 17:10:27.0479 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:11:44.1252 DEBUG init main
+2022-09-28 17:12:12.9761 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:12:13.1461 INFO select *from enquiries where status='pending'
+2022-09-28 17:12:13.9021 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:12:15.5314 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:12:15.5314 INFO select *from enquiries where status='pending'
+2022-09-28 17:12:15.5314 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:12:17.7574 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:12:17.7574 INFO select *from enquiries where status='pending'
+2022-09-28 17:12:17.7574 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:12:17.7708 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:12:17.7708 INFO select *from enquiries where status='pending'
+2022-09-28 17:12:17.7708 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:12:17.8016 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:12:17.8016 INFO select *from enquiries where status='pending'
+2022-09-28 17:12:17.8016 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:12:17.8160 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:12:17.8160 INFO select *from enquiries where status='pending'
+2022-09-28 17:12:17.8160 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:25.5364 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:25.5364 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:25.5364 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:25.5845 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:25.5845 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:25.5845 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:45.4152 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:45.4152 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:45.4152 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:45.4247 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:45.4247 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:45.4247 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:45.5942 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:45.5942 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:45.5942 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:45.6113 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:45.6113 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:45.6113 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:53.3657 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:53.3657 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:53.3657 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:53.3879 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:53.3879 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:53.3879 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:53.6493 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:53.6493 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:53.6493 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:13:53.6637 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:13:53.6637 INFO select *from enquiries where status='pending'
+2022-09-28 17:13:53.6637 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:15:50.4869 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:15:50.4869 INFO select *from enquiries where status='pending'
+2022-09-28 17:15:50.4869 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:15:50.5023 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:15:50.5023 INFO select *from enquiries where status='pending'
+2022-09-28 17:15:50.5023 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:11.4838 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:11.4838 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:11.4838 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:11.4838 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:11.4838 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:11.4838 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:18.5356 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:18.5356 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:18.5356 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:18.5988 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:18.5988 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:18.5988 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:18.6136 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:18.6136 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:18.6136 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:18.6209 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:18.6209 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:18.6209 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:48.5004 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:48.5004 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:48.5004 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:48.5166 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:48.5166 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:48.5166 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:48.5166 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:48.5166 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:48.5166 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:16:48.5289 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:16:48.5289 INFO select *from enquiries where status='pending'
+2022-09-28 17:16:48.5289 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:17:34.5019 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:17:34.5019 INFO select *from enquiries where status='pending'
+2022-09-28 17:17:34.5019 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:17:34.6035 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:17:34.6035 INFO select *from enquiries where status='pending'
+2022-09-28 17:17:34.6035 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:17:34.6087 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:17:34.6087 INFO select *from enquiries where status='pending'
+2022-09-28 17:17:34.6087 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:17:34.6087 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:17:34.6087 INFO select *from enquiries where status='pending'
+2022-09-28 17:17:34.6087 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:19:57.5063 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:19:57.5063 INFO select *from enquiries where status='pending'
+2022-09-28 17:19:57.5063 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:19:57.5179 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:19:57.5179 INFO select *from enquiries where status='pending'
+2022-09-28 17:19:57.5179 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:20:08.8212 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:20:08.8212 INFO select *from enquiries where status='pending'
+2022-09-28 17:20:08.8212 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:20:08.8312 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:20:08.8312 INFO select *from enquiries where status='pending'
+2022-09-28 17:20:08.8312 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:10.7985 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:10.7985 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:10.7985 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:16.8924 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:16.8924 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:16.8924 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:16.9175 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:16.9175 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:16.9175 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:26.4643 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:26.4643 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:26.4643 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:42.5922 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:42.5922 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:42.5922 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:42.6243 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:42.6243 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:42.6243 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:50.0782 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:50.0782 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:50.0782 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:21:50.2667 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:21:50.2667 INFO select *from enquiries where status='pending'
+2022-09-28 17:21:50.2667 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:22:00.3820 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:22:00.3820 INFO select *from enquiries where status='pending'
+2022-09-28 17:22:00.3820 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:22:00.3934 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:22:00.3934 INFO select *from enquiries where status='pending'
+2022-09-28 17:22:00.3934 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:22:14.4578 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:22:14.4578 INFO select *from enquiries where status='pending'
+2022-09-28 17:22:14.4578 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:22:14.4669 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:22:14.4669 INFO select *from enquiries where status='pending'
+2022-09-28 17:22:14.4669 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:32:26.5706 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:32:26.5706 INFO select *from enquiries where status='pending'
+2022-09-28 17:32:26.5706 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:32:35.3485 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:32:35.3485 INFO select *from enquiries where status='pending'
+2022-09-28 17:32:35.3485 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:32:35.3647 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:32:35.3647 INFO select *from enquiries where status='pending'
+2022-09-28 17:32:35.3647 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:33:34.6508 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:33:34.6511 INFO select *from enquiries where status='pending'
+2022-09-28 17:33:34.6511 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:33:34.6511 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 17:33:34.6511 INFO select *from enquiries where status='pending'
+2022-09-28 17:33:34.6511 INFO Get All active enquiries from DB using Dapper
+2022-09-28 17:38:35.6508 INFO ADDING NEW Enquiry 
+2022-09-28 17:38:36.1472 INFO creating enquireis in data base
+2022-09-28 17:38:36.3624 INFO sending mail to customer
+2022-09-28 17:38:47.5110 INFO ADDING NEW Enquiry 
+2022-09-28 17:38:47.5110 INFO creating enquireis in data base
+2022-09-28 17:38:47.5110 INFO sending mail to customer
+2022-09-28 22:01:41.5277 DEBUG init main
+2022-09-28 22:01:55.2051 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:01:55.2379 INFO select *from enquiries where status='pending'
+2022-09-28 22:01:55.5071 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:01:56.1554 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:01:56.1554 INFO select *from enquiries where status='pending'
+2022-09-28 22:01:56.1554 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:02:18.4284 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:02:18.4284 INFO select *from enquiries where status='pending'
+2022-09-28 22:02:18.4284 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:02:23.5676 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:02:23.5754 INFO select *from enquiries where status='pending'
+2022-09-28 22:02:23.5754 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:02:23.5918 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:02:23.5918 INFO select *from enquiries where status='pending'
+2022-09-28 22:02:23.5918 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:03:28.0644 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:03:28.0644 INFO select *from enquiries where status='pending'
+2022-09-28 22:03:28.0644 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:03:32.0160 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:03:32.0160 INFO select *from enquiries where status='pending'
+2022-09-28 22:03:32.0160 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:03:32.0290 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:03:32.0290 INFO select *from enquiries where status='pending'
+2022-09-28 22:03:32.0290 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:03:41.6341 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:03:41.6341 INFO select *from enquiries where status='pending'
+2022-09-28 22:03:41.6341 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:03:41.6406 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:03:41.6406 INFO select *from enquiries where status='pending'
+2022-09-28 22:03:41.6406 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:06:39.3249 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:06:39.3249 INFO select *from enquiries where status='pending'
+2022-09-28 22:06:39.3249 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:06:44.5015 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:06:44.5015 INFO select *from enquiries where status='pending'
+2022-09-28 22:06:44.5015 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:06:44.5015 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:06:44.5015 INFO select *from enquiries where status='pending'
+2022-09-28 22:06:44.5015 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:07:09.3332 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:07:09.3332 INFO select *from enquiries where status='pending'
+2022-09-28 22:07:09.3332 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:07:14.8589 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:07:14.8589 INFO select *from enquiries where status='pending'
+2022-09-28 22:07:14.8589 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:07:14.9455 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:07:14.9455 INFO select *from enquiries where status='pending'
+2022-09-28 22:07:14.9455 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:14.3466 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:14.3466 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:14.3466 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:14.4255 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:14.4255 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:14.4255 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:21.9411 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:21.9411 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:21.9411 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:21.9411 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:21.9411 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:21.9411 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:47.3108 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:47.3108 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:47.3108 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:55.3664 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:55.3664 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:55.3664 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:12:55.3726 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:12:55.3726 INFO select *from enquiries where status='pending'
+2022-09-28 22:12:55.3726 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:17:57.3241 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:17:57.3241 INFO select *from enquiries where status='pending'
+2022-09-28 22:17:57.3241 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:18:05.0625 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:18:05.0625 INFO select *from enquiries where status='pending'
+2022-09-28 22:18:05.0625 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:18:05.0902 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:18:05.0902 INFO select *from enquiries where status='pending'
+2022-09-28 22:18:05.0902 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:18:12.5535 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:18:12.5535 INFO select *from enquiries where status='pending'
+2022-09-28 22:18:12.5535 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:18:12.5576 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:18:12.5576 INFO select *from enquiries where status='pending'
+2022-09-28 22:18:12.5576 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:19:06.3603 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:19:06.3603 INFO select *from enquiries where status='pending'
+2022-09-28 22:19:06.3603 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:19:11.9029 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:19:11.9029 INFO select *from enquiries where status='pending'
+2022-09-28 22:19:11.9029 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:19:11.9029 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:19:11.9029 INFO select *from enquiries where status='pending'
+2022-09-28 22:19:11.9029 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:20:56.9099 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:20:56.9099 INFO select *from enquiries where status='pending'
+2022-09-28 22:20:56.9099 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:21:01.1591 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:21:01.1591 INFO select *from enquiries where status='pending'
+2022-09-28 22:21:01.1591 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:21:01.1697 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:21:01.1697 INFO select *from enquiries where status='pending'
+2022-09-28 22:21:01.1697 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:23:59.4913 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:23:59.4913 INFO select *from enquiries where status='pending'
+2022-09-28 22:23:59.4913 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:23:59.5395 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:23:59.5395 INFO select *from enquiries where status='pending'
+2022-09-28 22:23:59.5395 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:24:23.7414 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:24:23.7414 INFO select *from enquiries where status='pending'
+2022-09-28 22:24:23.7414 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:24:23.7452 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:24:23.7452 INFO select *from enquiries where status='pending'
+2022-09-28 22:24:23.7452 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:26:59.3076 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:26:59.3076 INFO select *from enquiries where status='pending'
+2022-09-28 22:26:59.3076 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:26:59.3076 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:26:59.3076 INFO select *from enquiries where status='pending'
+2022-09-28 22:26:59.3076 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:29:05.0815 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:29:05.0815 INFO select *from enquiries where status='pending'
+2022-09-28 22:29:05.0815 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:29:05.1432 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:29:05.1432 INFO select *from enquiries where status='pending'
+2022-09-28 22:29:05.1432 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:31:40.4290 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:31:40.4290 INFO select *from enquiries where status='pending'
+2022-09-28 22:31:40.4290 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:31:46.9456 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:31:46.9456 INFO select *from enquiries where status='pending'
+2022-09-28 22:31:46.9456 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:31:46.9496 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:31:46.9496 INFO select *from enquiries where status='pending'
+2022-09-28 22:31:46.9496 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:33:30.3283 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:33:30.3283 INFO select *from enquiries where status='pending'
+2022-09-28 22:33:30.3283 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:33:36.2229 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:33:36.2229 INFO select *from enquiries where status='pending'
+2022-09-28 22:33:36.2229 INFO Get All active enquiries from DB using Dapper
+2022-09-28 22:33:36.2600 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-28 22:33:36.2601 INFO select *from enquiries where status='pending'
+2022-09-28 22:33:36.2601 INFO Get All active enquiries from DB using Dapper

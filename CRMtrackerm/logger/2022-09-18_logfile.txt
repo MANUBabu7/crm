@@ -1,0 +1,115 @@
+2022-09-18 13:56:36.2027 DEBUG init main
+2022-09-18 13:56:54.9751 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-18 13:56:55.7888 INFO select *from customers
+2022-09-18 13:56:56.8477 INFO Get All customers from DB using Dapper
+2022-09-18 14:03:32.1830 DEBUG init main
+2022-09-18 14:03:48.8991 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-18 14:03:49.4066 INFO select *from customers
+2022-09-18 14:03:50.3725 INFO Get All customers from DB using Dapper
+2022-09-18 14:06:07.3800 DEBUG init main
+2022-09-18 14:06:22.5531 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-18 14:06:22.7125 INFO select *from customers
+2022-09-18 14:06:23.0630 INFO Get All customers from DB using Dapper
+2022-09-18 20:03:53.4133 DEBUG init main
+2022-09-18 20:04:19.9291 INFO ADDING NEW Enquiry 
+2022-09-18 20:04:20.5131 INFO creating enquireis in data base
+2022-09-18 20:04:21.5759 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:06:10.2095 DEBUG init main
+2022-09-18 20:06:51.9124 INFO ADDING NEW Enquiry 
+2022-09-18 20:06:51.9652 INFO creating enquireis in data base
+2022-09-18 20:06:52.7690 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:13:24.0710 DEBUG init main
+2022-09-18 20:13:40.9395 INFO ADDING NEW Enquiry 
+2022-09-18 20:13:41.0495 INFO creating enquireis in data base
+2022-09-18 20:13:42.0678 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:22:59.6812 DEBUG init main
+2022-09-18 20:23:29.7138 INFO ADDING NEW Enquiry 
+2022-09-18 20:23:30.2857 INFO creating enquireis in data base
+2022-09-18 20:23:31.4900 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:24:36.7139 DEBUG init main
+2022-09-18 20:24:55.9308 INFO ADDING NEW Enquiry 
+2022-09-18 20:24:56.0058 INFO creating enquireis in data base
+2022-09-18 20:24:57.0971 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:26:47.2886 DEBUG init main
+2022-09-18 20:27:07.5903 INFO ADDING NEW Enquiry 
+2022-09-18 20:27:07.6442 INFO creating enquireis in data base
+2022-09-18 20:27:08.4730 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:48:36.1857 DEBUG init main
+2022-09-18 20:48:53.9307 INFO ADDING NEW Enquiry 
+2022-09-18 20:48:54.5618 INFO creating enquireis in data base
+2022-09-18 20:48:55.7110 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 20:50:39.7715 DEBUG init main
+2022-09-18 20:51:10.2577 INFO ADDING NEW Enquiry 
+2022-09-18 20:51:10.4815 INFO creating enquireis in data base
+2022-09-18 20:51:11.3585 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 21:00:23.6366 DEBUG init main
+2022-09-18 21:00:50.7277 INFO ADDING NEW Enquiry 
+2022-09-18 21:00:50.9823 INFO creating enquireis in data base
+2022-09-18 21:00:51.9932 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 21:02:31.1624 DEBUG init main
+2022-09-18 21:02:51.7595 INFO ADDING NEW Enquiry 
+2022-09-18 21:02:51.9666 INFO creating enquireis in data base
+2022-09-18 21:02:52.8542 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 21:10:47.8547 DEBUG init main
+2022-09-18 21:11:07.1173 INFO ADDING NEW Enquiry 
+2022-09-18 21:11:07.4244 INFO creating enquireis in data base
+2022-09-18 21:11:08.3766 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 21:19:15.3352 DEBUG init main
+2022-09-18 21:19:31.8915 INFO ADDING NEW Enquiry 
+2022-09-18 21:19:32.1840 INFO creating enquireis in data base
+2022-09-18 21:19:33.2360 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 21:19:55.0577 DEBUG init main
+2022-09-18 21:20:11.5934 INFO ADDING NEW Enquiry 
+2022-09-18 21:20:11.6354 INFO creating enquireis in data base
+2022-09-18 21:20:12.6962 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 21:37:36.3716 DEBUG init main
+2022-09-18 21:37:51.7295 INFO ADDING NEW Enquiry 
+2022-09-18 21:37:51.8684 INFO creating enquireis in data base
+2022-09-18 21:37:52.7314 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:08:17.7249 DEBUG init main
+2022-09-18 23:08:45.7833 INFO ADDING NEW Enquiry 
+2022-09-18 23:08:46.3136 INFO creating enquireis in data base
+2022-09-18 23:09:52.4765 DEBUG init main
+2022-09-18 23:10:15.3225 INFO ADDING NEW Enquiry 
+2022-09-18 23:10:15.5484 INFO creating enquireis in data base
+2022-09-18 23:13:09.2828 DEBUG init main
+2022-09-18 23:13:42.9603 INFO ADDING NEW Enquiry 
+2022-09-18 23:13:43.2984 INFO creating enquireis in data base
+2022-09-18 23:13:45.1969 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:18:35.1098 DEBUG init main
+2022-09-18 23:18:58.3869 INFO ADDING NEW Enquiry 
+2022-09-18 23:18:58.7513 INFO creating enquireis in data base
+2022-09-18 23:19:00.6588 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:19:25.7873 DEBUG init main
+2022-09-18 23:19:52.9844 INFO ADDING NEW Enquiry 
+2022-09-18 23:19:53.2283 INFO creating enquireis in data base
+2022-09-18 23:22:05.4440 DEBUG init main
+2022-09-18 23:22:35.8273 INFO ADDING NEW Enquiry 
+2022-09-18 23:22:36.0425 INFO creating enquireis in data base
+2022-09-18 23:23:42.1166 DEBUG init main
+2022-09-18 23:24:08.4179 INFO ADDING NEW Enquiry 
+2022-09-18 23:24:08.5686 INFO creating enquireis in data base
+2022-09-18 23:24:50.1933 DEBUG init main
+2022-09-18 23:25:19.3539 INFO ADDING NEW Enquiry 
+2022-09-18 23:25:19.4769 INFO creating enquireis in data base
+2022-09-18 23:25:21.1747 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:27:22.6886 DEBUG init main
+2022-09-18 23:27:50.2724 INFO ADDING NEW Enquiry 
+2022-09-18 23:27:50.4077 INFO creating enquireis in data base
+2022-09-18 23:27:52.2613 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:30:50.9643 DEBUG init main
+2022-09-18 23:31:18.5929 INFO ADDING NEW Enquiry 
+2022-09-18 23:31:18.7591 INFO creating enquireis in data base
+2022-09-18 23:31:21.0853 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:33:04.2944 DEBUG init main
+2022-09-18 23:33:30.9894 INFO ADDING NEW Enquiry 
+2022-09-18 23:33:31.3651 INFO creating enquireis in data base
+2022-09-18 23:33:33.3860 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:35:26.6467 DEBUG init main
+2022-09-18 23:37:06.9817 DEBUG init main
+2022-09-18 23:37:27.6807 INFO ADDING NEW Enquiry 
+2022-09-18 23:37:28.1649 INFO creating enquireis in data base
+2022-09-18 23:37:31.3700 INFO creating enquiry documents based on enquiry in data base
+2022-09-18 23:55:06.1157 DEBUG init main
+2022-09-18 23:55:38.1349 INFO ADDING NEW Enquiry 
+2022-09-18 23:56:13.4930 INFO ADDING NEW Enquiry 

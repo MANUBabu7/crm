@@ -1,0 +1,48 @@
+2022-09-23 11:10:55.8336 DEBUG init main
+2022-09-23 11:12:43.4131 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 11:12:44.0223 INFO select *from enquiries where status='pending'
+2022-09-23 11:12:44.0223 INFO Get All active enquiries from DB using Dapper
+2022-09-23 11:58:57.8398 DEBUG init main
+2022-09-23 12:05:10.7069 DEBUG init main
+2022-09-23 12:10:29.4119 DEBUG init main
+2022-09-23 12:26:15.0671 DEBUG init main
+2022-09-23 12:59:43.3358 DEBUG init main
+2022-09-23 13:01:32.2324 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 13:01:32.3086 INFO select *from enquiries where status='pending'
+2022-09-23 13:01:32.3086 INFO Get All active enquiries from DB using Dapper
+2022-09-23 13:56:47.6001 DEBUG init main
+2022-09-23 13:58:58.4445 DEBUG init main
+2022-09-23 14:00:06.1396 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 14:00:06.2186 INFO select *from enquiries where status='pending'
+2022-09-23 14:00:06.2186 INFO Get All active enquiries from DB using Dapper
+2022-09-23 14:49:39.1630 DEBUG init main
+2022-09-23 14:53:28.5127 DEBUG init main
+2022-09-23 14:59:01.3823 DEBUG init main
+2022-09-23 16:07:06.7913 DEBUG init main
+2022-09-23 16:15:57.7181 DEBUG init main
+2022-09-23 16:25:39.8697 DEBUG init main
+2022-09-23 16:28:35.6442 DEBUG init main
+2022-09-23 16:36:25.4104 DEBUG init main
+2022-09-23 16:40:06.1768 DEBUG init main
+2022-09-23 16:46:05.3027 DEBUG init main
+2022-09-23 16:51:06.5553 DEBUG init main
+2022-09-23 16:52:31.6671 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 16:52:31.7525 INFO select *from enquiries where status='pending'
+2022-09-23 16:52:31.7525 INFO Get All active enquiries from DB using Dapper
+2022-09-23 16:55:16.6818 DEBUG init main
+2022-09-23 16:57:05.7571 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 16:57:05.7814 INFO select *from "RFPs" where rfpr_status='Active'
+2022-09-23 16:57:05.7814 INFO Get All active enquiries from DB using Dapper
+2022-09-23 16:59:28.7279 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 16:59:28.7279 INFO select *from enquiries where status='pending'
+2022-09-23 16:59:28.7279 INFO Get All active enquiries from DB using Dapper
+2022-09-23 17:06:52.8631 DEBUG init main
+2022-09-23 17:10:49.6451 DEBUG init main
+2022-09-23 17:19:55.3379 DEBUG init main
+2022-09-23 17:53:44.4921 DEBUG init main
+2022-09-23 17:55:30.6664 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 17:55:30.7311 INFO select *from enquiries where status='pending'
+2022-09-23 17:55:30.7311 INFO Get All active enquiries from DB using Dapper
+2022-09-23 17:56:48.7285 INFO GETIING ALL EXISTING CUSTOMERS
+2022-09-23 17:56:48.7285 INFO select *from "RFPs" where rfpr_status='Active'
+2022-09-23 17:56:48.7285 INFO Get All active enquiries from DB using Dapper
