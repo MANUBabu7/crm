@@ -106,7 +106,7 @@ namespace CrmTracker.Repository
             try
             {
                 //to get all active enquiries from database
-                var query = "select *from \"RFPs\" where rfpr_status='Active'";
+                var query = "select *from \"RFPs\";";
                 log.LogInfo(query);
                 using (var conn = cdc.CreateConnection())
                 {

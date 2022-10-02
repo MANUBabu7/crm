@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CrmTracker.Controllers.V1
 {
-    [Authorize(Roles = "Technical")]
+
     [Route("api/[controller]")]
     [ApiController]
     public class RfpController : ControllerBase

@@ -10,6 +10,7 @@ namespace CrmTracker.Contracts
         public bool NewRfp(RFPs Rpf);
 
         public List<RFPs> GetAllRFPs();
+
         public List<RfpDocument> GetAllRFPrDocuments(int id);
     }
 }

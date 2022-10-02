@@ -9,6 +9,7 @@ namespace CrmTracker.Contracts
     {
         public bool NewEnquiry(NewEnquiries enquiries);
        public List<Enquiry> getAllEnquires();
-       public List<EnquiryDocument> getAllEnquiresDocuments(int id);
+        public List<Rfpcategory> getAllRfpcategory();
+        public List<EnquiryDocument> getAllEnquiresDocuments(int id);
     }
 }

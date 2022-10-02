@@ -83,6 +83,33 @@ namespace CrmTracker.Repository
 
             }
         }
+        public List<Rfpcategory> getAllRfpcategory()
+        {
+            try
+            {
+                //to get all active enquiries from database
+                var query = "select *from  \"RFPCategories\";";
+                log.LogInfo(query);
+                using (var conn = cdc.CreateConnection())
+                {
+                    log.LogInfo("Get All active enquiries from DB using Dapper");
+                    List<Rfpcategory> rfpcategories = (List<Rfpcategory>)conn.Query<Rfpcategory>(query);
+                    //retrun the list that contains enquiry records
+                    return rfpcategories.ToList();
+
+                }
+
+            }
+            catch (Exception)
+            {
+                //error in loading data from data base
+                log.LogError("error in loading data from data base");
+
+                throw;
+
+            }
+
+        }
 
         public List<EnquiryDocument> getAllEnquiresDocuments(int id)
         {

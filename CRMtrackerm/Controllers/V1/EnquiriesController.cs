@@ -47,6 +47,13 @@ namespace CrmTracker.Controllers.V1
             log.LogInfo("ADDING NEW Enquiry ");
             return Ok(enquiries.getAllEnquiresDocuments(enquiryid));
         }
+        [HttpGet]
+        [Route("/[controller]/V1/ToGetAllRfpCategory")]
+        public IActionResult ToGetAllRfpCategory()
+        {
+            log.LogInfo("GETIING ALL EXISTING CUSTOMERS");
+            return Ok(enquiries.getAllRfpcategory());
+        }
     }
 
 }
