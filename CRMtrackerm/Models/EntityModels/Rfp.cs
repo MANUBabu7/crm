@@ -4,7 +4,7 @@ namespace CrmTracker.Models.EntityModels
     public class RFPs
     {
 
-        //public int rfpr_id { get; set; }
+        public int rfpr_id { get; set; }
 
         public int rfpr_enqr_id { get; set; }
         public string rfpr_assignedto { get; set; }
@@ -24,12 +24,17 @@ namespace CrmTracker.Models.EntityModels
     }
     public class RfpDocument
     {
-        //  public int rfpr_id { get; set; }
+        public int rfpr_id { get; set; }
         public int rfpd_docindex { get; set; }
         public string rfpd_documentpath { get; set; }
         public string rfpd_version { get; set; }
         public string rpfd_reviewed_by { get; set; }
         public string rfpd_desc { get; set; }
+
+        public string rfpd_pdfversion { get; set; }
+        public string rfpd_sharedstatus { get; set; }
+        public string rfpd_prepareddate { get; set; }
+        public string rfpd_type { get; set; }
     }
 
 }
