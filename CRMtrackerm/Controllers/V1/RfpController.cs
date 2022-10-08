@@ -34,7 +34,7 @@ namespace CrmTracker.Controllers.V1
         [Route("/[controller]/V1/ToGetAllActiveRFPs")]
         public IActionResult ToGetAllActiveEnquiries()
         {
-            log.LogInfo("GETIING ALL EXISTING CUSTOMERS");
+            log.LogInfo("GETIING ALL EXISTING ToGetAllActiveRFPs");
             return Ok(rfpContract.GetAllRFPs());
         }
 
@@ -48,6 +48,38 @@ namespace CrmTracker.Controllers.V1
             // to get all 
             log.LogInfo("geting all documents based on rfpid ");
             return Ok(rfpContract.GetAllRFPrDocuments(RPFrid));
+        }
+
+
+
+
+        [HttpGet]
+        // to get all active rfps
+        [Route("/[controller]/V1/ToGetAllUsers")]
+        public IActionResult ToGetAllusers()
+        {
+            log.LogInfo("GETIING ALL users");
+            return Ok(rfpContract.GetAllUsers());
+        }
+        [HttpPost]
+        [Route("/[controller]/V1/UpdateStatusrfp")]
+        // geting data from form
+        // adding new enquiry
+
+        public IActionResult UpdateStatusEnq([FromBody] UpdateRfpStatus statusrfp)
+        {
+            log.LogInfo("updating status of rfp ");
+            return Ok(rfpContract.updatesatusRfp(statusrfp));
+        }
+        [HttpPost]
+        [Route("/[controller]/V1/AssignUser")]
+        // geting data from form
+        // adding new enquiry
+
+        public IActionResult AssignUser([FromBody] AssignUser assignUser)
+        {
+            log.LogInfo("Assing user to rfp ");
+            return Ok(rfpContract.AssignToUser(assignUser));
         }
 
     }

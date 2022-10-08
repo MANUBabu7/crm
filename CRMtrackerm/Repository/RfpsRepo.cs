@@ -29,6 +29,32 @@ namespace CrmTracker.Repository
 
         }
 
+        public bool updatesatusRfp(UpdateRfpStatus statusrfp)
+        {
+
+            using (var conn = cdc.CreateConnection())
+            {
+
+
+                string qry = "update \"RFPs\"  SET rfpr_status = @status where rfpr_id=@id;";
+                int count = conn.Execute(qry, new { @status = statusrfp.Status, @id = statusrfp.rfpr_id });
+
+                return true;
+            }
+
+        }
+        public bool AssignToUser(AssignUser assignUser)
+        {
+            using (var conn = cdc.CreateConnection())
+            {
+
+
+                string qry = "update \"RFPs\"  SET rfpr_assignedto = @user where rfpr_id=@id;";
+                int count = conn.Execute(qry, new { @user = assignUser.ausr_id, @id = assignUser.rfpr_id });
+
+                return true;
+            }
+        }
         public bool NewRfp(RFPs Rfp)
         {
             log.LogInfo("");
@@ -114,6 +140,33 @@ namespace CrmTracker.Repository
                     List<RFPs> enquiries = (List<RFPs>)conn.Query<RFPs>(query);
                     //retrun the list that contains enquiry records
                     return enquiries.ToList();
+
+                }
+
+            }
+            catch (Exception)
+            {
+                //error in loading data from data base
+                log.LogError("error in loading data from data base");
+
+                throw;
+
+            }
+        }
+        public List<User> GetAllUsers()
+        {
+
+            try
+            {
+                //to get all active enquiries from database
+                var query = "select *from \"AdminUsers\";";
+                log.LogInfo(query);
+                using (var conn = cdc.CreateConnection())
+                {
+                    log.LogInfo("Get All active enquiries from DB using Dapper");
+                    List<User> AllUsers = (List<User>)conn.Query<User>(query);
+                    //retrun the list that contains enquiry records
+                    return AllUsers.ToList();
 
                 }
 

@@ -8,7 +8,8 @@ namespace CrmTracker.Contracts
     public interface IEnquiry
     {
         public bool NewEnquiry(NewEnquiries enquiries);
-       public List<Enquiry> getAllEnquires();
+        public bool updatesatusEnq(UpdateStatusEnq statusEnq);
+        public List<Enquiry> getAllEnquires();
         public List<Rfpcategory> getAllRfpcategory();
         public List<EnquiryDocument> getAllEnquiresDocuments(int id);
     }

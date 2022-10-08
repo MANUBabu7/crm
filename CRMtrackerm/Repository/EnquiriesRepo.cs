@@ -21,7 +21,20 @@ namespace CrmTracker.Repository
             this.cdc = cdc;
             this.log = log;
         }
+        public bool updatesatusEnq(UpdateStatusEnq statusEnq)
+        {
 
+            using (var conn = cdc.CreateConnection())
+            {
+
+               
+                    string qry = "update enquiries SET status = @status where enquiry_id=@id;";
+                    int count = conn.Execute(qry, new { @status = statusEnq.status,@id = statusEnq.enq_id });
+
+                return true;
+            }
+
+        }
         public bool NewEnquiry(NewEnquiries enquiries)
         {
             log.LogInfo("creating enquireis in data base");
@@ -62,7 +75,7 @@ namespace CrmTracker.Repository
             try
             {
                 //to get all active enquiries from database
-                var query = "select *from enquiries where status='pending'";
+                var query = "select *from enquiries ";
                 log.LogInfo(query);
                 using (var conn = cdc.CreateConnection())
                 {

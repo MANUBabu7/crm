@@ -28,6 +28,16 @@ namespace CrmTracker.Controllers.V1
             log.LogInfo("ADDING NEW Enquiry ");
             return Ok(enquiries.NewEnquiry(add));
         }
+        [HttpPost]
+        [Route("/[controller]/V1/UpdateStatusEnq")]
+        // geting data from form
+        // adding new enquiry
+
+        public IActionResult UpdateStatusEnq([FromBody] UpdateStatusEnq statusEnq)
+        {
+            log.LogInfo("ADDING NEW Enquiry ");
+            return Ok(enquiries.updatesatusEnq(statusEnq));
+        }
 
         [HttpGet]
         [Route("/[controller]/V1/ToGetAllActiveEnquiries")]

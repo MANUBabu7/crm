@@ -9,7 +9,11 @@ namespace CrmTracker.Contracts
     {
         public bool NewRfp(RFPs Rpf);
 
+        public bool AssignToUser(AssignUser assignUser);
+
         public List<RFPs> GetAllRFPs();
+        public List<User> GetAllUsers();
+        public bool updatesatusRfp(UpdateRfpStatus statusrfp);
 
         public List<RfpDocument> GetAllRFPrDocuments(int id);
     }
