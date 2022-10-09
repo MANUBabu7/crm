@@ -7,7 +7,7 @@ namespace CrmTracker.Contracts
 {
     public interface IRfpContract
     {
-        public bool NewRfp(RFPs Rpf);
+        public bool NewRfp(CRFPs Rpf);
 
         public bool AssignToUser(AssignUser assignUser);
 

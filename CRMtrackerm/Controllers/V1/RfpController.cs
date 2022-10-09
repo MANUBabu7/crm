@@ -23,7 +23,7 @@ namespace CrmTracker.Controllers.V1
         // geting data from form
         // adding new Rfps
 
-        public bool NewRFP([FromBody] RFPs add)
+        public bool NewRFP([FromBody] CRFPs add)
         {
             log.LogInfo("ADDING NEW Rfps ");
             return rfpContract.NewRfp(add);
