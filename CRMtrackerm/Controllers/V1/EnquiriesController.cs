@@ -44,9 +44,15 @@ namespace CrmTracker.Controllers.V1
         public IActionResult ToGetAllActiveEnquiries()
         {
             log.LogInfo("GETIING ALL EXISTING CUSTOMERS");
+            return Ok(enquiries.getAllActiveEnquires());
+        }
+        [HttpGet]
+        [Route("/[controller]/V1/ToGetAllEnquiries")]
+        public IActionResult ToGetAllEnquiries()
+        {
+            log.LogInfo("GETIING ALL EXISTING CUSTOMERS");
             return Ok(enquiries.getAllEnquires());
         }
-
         [HttpPost]
         [Route("/[controller]/V1/GetAllEnquiryDocuments")]
         // geting data from form
